@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SWIFTUI1
+//  wesplit
 //
 //  Created by Cristian Paniagua on 11/3/19.
 //  Copyright © 2019 Cristian Paniagua. All rights reserved.

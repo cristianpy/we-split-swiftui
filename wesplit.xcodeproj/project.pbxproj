@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B4453EB236F471200087458 /* SWIFTUI1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWIFTUI1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4453EB236F471200087458 /* we-split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "we-split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4453EE236F471200087458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B4453F0236F471200087458 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8B4453F2236F471200087458 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		8B4453E2236F471200087458 = {
 			isa = PBXGroup;
 			children = (
-				8B4453ED236F471200087458 /* SWIFTUI1 */,
+				8B4453ED236F471200087458 /* wesplit */,
 				8B4453EC236F471200087458 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		8B4453EC236F471200087458 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B4453EB236F471200087458 /* SWIFTUI1.app */,
+				8B4453EB236F471200087458 /* we-split.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B4453ED236F471200087458 /* SWIFTUI1 */ = {
+		8B4453ED236F471200087458 /* wesplit */ = {
 			isa = PBXGroup;
 			children = (
 				8B4453EE236F471200087458 /* AppDelegate.swift */,
@@ -64,7 +64,7 @@
 				8B4453FC236F472300087458 /* Info.plist */,
 				8B4453F6236F472300087458 /* Preview Content */,
 			);
-			path = SWIFTUI1;
+			path = wesplit;
 			sourceTree = "<group>";
 		};
 		8B4453F6236F472300087458 /* Preview Content */ = {
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B4453EA236F471200087458 /* SWIFTUI1 */ = {
+		8B4453EA236F471200087458 /* wesplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B4453FF236F472300087458 /* Build configuration list for PBXNativeTarget "SWIFTUI1" */;
+			buildConfigurationList = 8B4453FF236F472300087458 /* Build configuration list for PBXNativeTarget "wesplit" */;
 			buildPhases = (
 				8B4453E7236F471200087458 /* Sources */,
 				8B4453E8236F471200087458 /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = SWIFTUI1;
-			productName = SWIFTUI1;
-			productReference = 8B4453EB236F471200087458 /* SWIFTUI1.app */;
+			name = wesplit;
+			productName = wesplit;
+			productReference = 8B4453EB236F471200087458 /* we-split.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8B4453E6236F471200087458 /* Build configuration list for PBXProject "SWIFTUI1" */;
+			buildConfigurationList = 8B4453E6236F471200087458 /* Build configuration list for PBXProject "wesplit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B4453EA236F471200087458 /* SWIFTUI1 */,
+				8B4453EA236F471200087458 /* wesplit */,
 			);
 		};
 /* End PBXProject section */
@@ -285,15 +285,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SWIFTUI1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"wesplit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SWIFTUI1/Info.plist;
+				INFOPLIST_FILE = wesplit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tenonde.swiftui1.SWIFTUI1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tenonde.wesplit;
+				PRODUCT_NAME = "we-split";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,15 +304,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SWIFTUI1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"wesplit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SWIFTUI1/Info.plist;
+				INFOPLIST_FILE = wesplit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tenonde.swiftui1.SWIFTUI1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tenonde.wesplit;
+				PRODUCT_NAME = "we-split";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B4453E6236F471200087458 /* Build configuration list for PBXProject "SWIFTUI1" */ = {
+		8B4453E6236F471200087458 /* Build configuration list for PBXProject "wesplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B4453FD236F472300087458 /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B4453FF236F472300087458 /* Build configuration list for PBXNativeTarget "SWIFTUI1" */ = {
+		8B4453FF236F472300087458 /* Build configuration list for PBXNativeTarget "wesplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B445400236F472300087458 /* Debug */,
